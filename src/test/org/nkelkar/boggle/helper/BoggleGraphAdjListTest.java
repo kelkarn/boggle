@@ -17,9 +17,9 @@ public class BoggleGraphAdjListTest {
     @Test
     public void testBoggleGraphAdjList() throws IOException {
         /**
-         * a b c
+         * a b e
          * d e f
-         * g h i
+         * s h i
          */
         /*
         HashSet<String> vocab = new HashSet<String>();
@@ -29,7 +29,7 @@ public class BoggleGraphAdjListTest {
         vocab.add("head");
         */
         String vocabFilePath = "C:\\Users\\dell\\IdeaProjects\\boggle\\src\\test\\resources\\dictionary.txt";
-        BoggleGraph bg = new BoggleGraph(new Character[][] {{'a', 'b', 'c'}, {'d', 'e', 'f'}, {'g', 'h', 'i'}}, vocabFilePath);
+        BoggleGraph bg = new BoggleGraph(new Character[][] {{'a', 'b', 'e'}, {'d', 'e', 'f'}, {'s', 'h', 'i'}}, vocabFilePath);
         bg.printGraph();    // to view graph
 
         Assert.assertTrue(bg.containsEdge(new BoggleVertex('e', 4), new BoggleVertex('b', 1)));

@@ -173,20 +173,13 @@ public class BoggleGraph extends AbstractGenericGraph<Character[]> {
 
         // for each vertex v, traverse it's adjacency
         // list, and keep building set of seen words
+        Set<BoggleVertex> exploredVertices = new HashSet<BoggleVertex>();
         for(BoggleVertex v : adjList.keySet()) {
-            Set<BoggleVertex> exploredVertices = new HashSet<BoggleVertex>();
             exploredVertices.add( v );  // this vertex has already been seen
             String seen = "";   // create empty string
             seen = seen + v.getData();
-            for(BoggleVertex c : adjList.get( v )) {
-                exploredVertices.add( c );
-                seen = seen + c.getData();
-                if(vocabulary.contains(seen)) {resultSet.add(seen);}
-                recursiveWordSearch(c, exploredVertices, seen);
-                seen = "" + v.getData();    // reset string
-                exploredVertices.clear();   // free for future use
-                exploredVertices.add( v );
-            }
+            recursiveWordSearch(v, exploredVertices, seen);
+            exploredVertices.clear();
         }
     }
 
