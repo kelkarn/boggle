@@ -16,6 +16,7 @@ public class BoggleGraph extends AbstractGenericGraph<Character[]> {
 
     private int boardSize;  // #chars per board edge
     private final int EIGHT = 8;    // max number of nodes that can connect
+    private final int THREE = 3;
     private Map<BoggleVertex, ArrayList<BoggleVertex>> adjList;
     private Set<String> vocabulary;
     private Set<String> resultSet;
@@ -65,8 +66,8 @@ public class BoggleGraph extends AbstractGenericGraph<Character[]> {
                 word = word.replace("'", "");
                 word = word.replace("-", "");
 
-                if(word.length() < boardSize)
-                    continue;   // usual boggle rule: length of word >= board edge length
+                if(word.length() < THREE)
+                    continue;   // usual boggle rule: length of word >= 3
 
                 vocabulary.add( word );
             }
