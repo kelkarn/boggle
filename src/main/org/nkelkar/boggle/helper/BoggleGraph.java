@@ -1,10 +1,8 @@
 package main.org.nkelkar.boggle.helper;
 
-import main.org.nkelkar.util.graph.Vertex;
 import main.org.nkelkar.util.graph.api.abs.AbstractGenericGraph;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
