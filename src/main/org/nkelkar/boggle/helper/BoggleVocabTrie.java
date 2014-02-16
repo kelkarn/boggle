@@ -113,4 +113,18 @@ public class BoggleVocabTrie extends AbstractGenericTrie<Character> {
         // we now need to mark end of string
         currNode.markAsKey();
     }
+
+    public boolean containsPrefix(String key) {
+        char[] keyChars = key.toCharArray();
+        TrieNode<Character> currNode = root.getChild(keyChars[0] - A);// get word's first char
+        int idx = 1;
+        while(idx < keyChars.length) {
+            if(!currNode.hasChildren()) return false;
+
+            if(currNode.getChild(idx) == null) return false;
+            currNode = currNode.getChild( keyChars[idx] - A);
+            idx++;  // go to next character to compare
+        }
+        return !(currNode == null || currNode.getData() == null);
+    }
 }

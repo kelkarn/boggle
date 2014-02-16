@@ -26,7 +26,7 @@ public class BoggleTrieTest {
     }
 
     @Test
-    public void testBogglePrintAllKeys() {
+    public void testBoggleTriePrintAllKeys() {
         BoggleVocabTrie bvt = new BoggleVocabTrie();
         bvt.addKey("contain");
         bvt.addKey("contract");
@@ -34,5 +34,18 @@ public class BoggleTrieTest {
         bvt.addKey("conquer");
 
         bvt.printAllKeys();
+    }
+
+    @Test
+    public void testBoggleTrieContainsPrefix() {
+        BoggleVocabTrie bvt = new BoggleVocabTrie();
+        bvt.addKey("contain");
+        bvt.addKey("contract");
+        bvt.addKey("cost");
+        bvt.addKey("conquer");
+
+        Assert.assertFalse(bvt.containsPrefix("col"));
+        Assert.assertTrue(bvt.containsPrefix("con"));
+        Assert.assertTrue(bvt.containsPrefix("cos"));
     }
 }

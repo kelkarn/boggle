@@ -20,8 +20,9 @@ public class BoggleGraph extends AbstractGenericGraph<Character[]> {
     private final char Q = 'q';
     private final char U = 'u';
     private Map<BoggleVertex, ArrayList<BoggleVertex>> adjList;
-    private Set<String> vocabulary;
+    //private Set<String> vocabulary;
     private Set<String> resultSet;
+    private BoggleVocabTrie vocab;
 
     public BoggleGraph(Character[][] data, String vocabFilePath) throws IOException {
         // check for squareness first
@@ -50,7 +51,9 @@ public class BoggleGraph extends AbstractGenericGraph<Character[]> {
          *
          * So, we have total 9 cases to handle
          */
-        vocabulary = new HashSet<String>();
+        //vocabulary = new HashSet<String>();
+        vocab = new BoggleVocabTrie();
+
         buildVocab( vocabFilePath );
         buildGraph( data );
     }
@@ -71,7 +74,8 @@ public class BoggleGraph extends AbstractGenericGraph<Character[]> {
                 if(word.length() < THREE)
                     continue;   // usual boggle rule: length of word >= 3
 
-                vocabulary.add( word );
+                //vocabulary.add( word );
+                vocab.addKey( word );
             }
         }
         finally {
@@ -173,8 +177,9 @@ public class BoggleGraph extends AbstractGenericGraph<Character[]> {
     }
 
     public boolean vocabContains(String key) {
-        if(vocabulary == null) return false;
-        return vocabulary.contains( key );
+        //if(vocabulary == null) return false;
+        //return vocabulary.contains( key );
+        return vocab.isKey( key );
     }
     public void getWords() {
 
@@ -193,7 +198,11 @@ public class BoggleGraph extends AbstractGenericGraph<Character[]> {
 
     private void recursiveWordSearch(BoggleVertex v, Set<BoggleVertex> explored, String seenSoFar) {
 
-        if(vocabulary.contains(seenSoFar)) {
+        if(!vocab.containsPrefix(seenSoFar)) {
+            return; // no point following this path
+        }
+
+        if(vocab.isKey(seenSoFar)/*vocabulary.contains(seenSoFar)*/) {
             resultSet.add(seenSoFar);
         }
 
