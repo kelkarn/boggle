@@ -1,7 +1,7 @@
 package main.org.nkelkar.util.graph.api.ifc;
 
 /**
- * User: dell
+ * User: nkelkar
  * Date: 2/11/14
  * Time: 1:21 AM
  */

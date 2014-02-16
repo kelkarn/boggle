@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.*;
 
 /**
- * User: dell
+ * User: nkelkar
  * Date: 2/11/14
  * Time: 2:14 AM
  */
@@ -17,6 +17,8 @@ public class BoggleGraph extends AbstractGenericGraph<Character[]> {
     private int boardSize;  // #chars per board edge
     private final int EIGHT = 8;    // max number of nodes that can connect
     private final int THREE = 3;
+    private final char Q = 'q';
+    private final char U = 'u';
     private Map<BoggleVertex, ArrayList<BoggleVertex>> adjList;
     private Set<String> vocabulary;
     private Set<String> resultSet;
@@ -170,6 +172,10 @@ public class BoggleGraph extends AbstractGenericGraph<Character[]> {
         return false;
     }
 
+    public boolean vocabContains(String key) {
+        if(vocabulary == null) return false;
+        return vocabulary.contains( key );
+    }
     public void getWords() {
 
         // for each vertex v, traverse it's adjacency
@@ -179,6 +185,7 @@ public class BoggleGraph extends AbstractGenericGraph<Character[]> {
             exploredVertices.add( v );  // this vertex has already been seen
             String seen = "";   // create empty string
             seen = seen + v.getData();
+            seen = (v.getData() == Q)?(seen + U):seen;
             recursiveWordSearch(v, exploredVertices, seen);
             exploredVertices.clear();
         }
@@ -194,9 +201,16 @@ public class BoggleGraph extends AbstractGenericGraph<Character[]> {
             if (!explored.contains( b )) {  // if this node hasn't been seen
                 explored.add( b );  // mark as seen
                 seenSoFar = seenSoFar + b.getData();
+                seenSoFar = (b.getData() == Q)?(seenSoFar + U):seenSoFar;
                 recursiveWordSearch(b, explored, seenSoFar); // proceed to next
                 explored.remove( b );
-                seenSoFar = seenSoFar.substring(0, seenSoFar.length() - 1); // remove appended character
+                //seenSoFar = seenSoFar.substring(0, seenSoFar.length() - 1);
+                //if(seenSoFar.length() == 3) {
+                //    if(seenSoFar.charAt(2) == 'o')
+                //        System.out.println();
+                //}
+                seenSoFar = (b.getData() == Q)?seenSoFar.substring(0, seenSoFar.length() - 2):
+                             seenSoFar.substring(0, seenSoFar.length() - 1); // remove appended character(s)
             }
         }
     }

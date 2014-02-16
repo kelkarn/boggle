@@ -1,7 +1,7 @@
 package main.org.nkelkar.util.graph.api.abs;
 
 /**
- * User: dell
+ * User: nkelkar
  * Date: 2/11/14
  * Time: 1:42 AM
  */
