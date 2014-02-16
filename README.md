@@ -14,7 +14,7 @@ Enjoy!
 UPDATE-02/16/2014: Replaced old HashSet dictionary with the more advanced Trie data structure. The solver can solve a 4x4 board much much faster now! (~5 seconds of savings) I'm sure it will be faster in magnitudes for larger board sizes.
 
 
-UPDATE-02/16/2014: Please note, for the dictionary used under boggle/src/test/resources, the following copyright notice:
+UPDATE-02/16/2014: Please note, for the dictionary boggle/src/test/resources/dictionary.txt, the following copyright notice:
 
 The collective work is Copyright 2000-2011 by Kevin Atkinson as well
 as any of the copyrights mentioned below:
