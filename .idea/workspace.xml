@@ -9,17 +9,20 @@
     <file path="/AbstractGenericGraph.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392110863313" ignored="false" />
     <file path="/BoggleGraph.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392508601858" ignored="false" />
     <file path="/BoggleVertex.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392427204986" ignored="false" />
-    <file path="/fragment.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392103731563" ignored="false" />
+    <file path="/fragment.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392535064566" ignored="false" />
     <file path="/BoggleVertexMapTest.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392109393116" ignored="false" />
-    <file path="/BoggleGraphConstructorTest.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392440532096" ignored="false" />
+    <file path="/BoggleGraphConstructorTest.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392523393989" ignored="false" />
     <file path="/BoggleGraphAdjListTest.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392507072945" ignored="false" />
     <file path="$USER_HOME$/Documents/algorithms/code/src/test/java/org/nkelkar/algorithm/string/stringmatch/patternmatch/StringMatchWithWildCardsTest.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392446328947" ignored="false" />
     <file path="/StringMatchWithWildCardsTest.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392445455661" ignored="false" />
     <file path="$USER_HOME$/Documents/algorithms/code/src/main/java/org/nkelkar/algorithm/string/stringmatch/patternmatch/StringMatchWithWildCards.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392446442063" ignored="false" />
     <file path="/StringMatchWithWildCards.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392446435980" ignored="false" />
-    <file path="/TrieNode.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392499605323" ignored="false" />
-    <file path="/AbstractGenericTrie.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392501970177" ignored="false" />
+    <file path="/TrieNode.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392526761906" ignored="false" />
+    <file path="/AbstractGenericTrie.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392523796999" ignored="false" />
     <file path="/a.dummy" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392508635140" ignored="false" />
+    <file path="/BoggleVocabTrie.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392537485148" ignored="false" />
+    <file path="/BoggleTrieConstructorTest.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392527463064" ignored="false" />
+    <file path="/BoggleTrieTest.java" changelist="1529aace-0240-4b69-a537-96e04ee2c7c2" time="1392533578544" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +74,143 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleVocabTrie.java" line="34" class="main.org.nkelkar.boggle.helper.BoggleVocabTrie" package="main.org.nkelkar.boggle.helper">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleVocabTrie.java" line="79" class="main.org.nkelkar.boggle.helper.BoggleVocabTrie" package="main.org.nkelkar.boggle.helper">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleVocabTrie.java" line="84" class="main.org.nkelkar.boggle.helper.BoggleVocabTrie" package="main.org.nkelkar.boggle.helper">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleVocabTrie.java" line="88" class="main.org.nkelkar.boggle.helper.BoggleVocabTrie" package="main.org.nkelkar.boggle.helper">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleVocabTrie.java" line="91" class="main.org.nkelkar.boggle.helper.BoggleVocabTrie" package="main.org.nkelkar.boggle.helper">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleVocabTrie.java" line="103" class="main.org.nkelkar.boggle.helper.BoggleVocabTrie" package="main.org.nkelkar.boggle.helper">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleVocabTrie.java" line="104" class="main.org.nkelkar.boggle.helper.BoggleVocabTrie" package="main.org.nkelkar.boggle.helper">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleVocabTrie.java" line="108" class="main.org.nkelkar.boggle.helper.BoggleVocabTrie" package="main.org.nkelkar.boggle.helper">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleVocabTrie.java" line="93" class="main.org.nkelkar.boggle.helper.BoggleVocabTrie" package="main.org.nkelkar.boggle.helper">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -80,15 +220,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Vertex.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org/nkelkar/util/graph/Vertex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GenericGraph.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/org/nkelkar/util/graph/api/ifc/GenericGraph.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,19 +229,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoggleGraphConstructorTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/org/nkelkar/boggle/helper/BoggleGraphConstructorTest.java">
+      <file leaf-file-name="BoggleGraph.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="41" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="187" column="17" selection-start="8268" selection-end="8268" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3034#3048#0" expanded="true" />
+                <element signature="e#8013#8027#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoggleVertexMapTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/org/nkelkar/boggle/helper/BoggleVertexMapTest.java">
+      <file leaf-file-name="BoggleGraphConstructorTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/org/nkelkar/boggle/helper/BoggleGraphConstructorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="9" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+            <state line="16" column="31" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,17 +263,41 @@
       <file leaf-file-name="TrieNode.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/org/nkelkar/util/tree/trie/TrieNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="23" column="17" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractGenericTrie.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AbstractGenericTrie.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/org/nkelkar/util/tree/trie/api/AbstractGenericTrie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="9" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+            <state line="10" column="68" selection-start="232" selection-end="232" vertical-scroll-proportion="0.27309236">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoggleVocabTrie.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleVocabTrie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="17" selection-start="2524" selection-end="2524" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#506#527#0" expanded="true" />
+                <element signature="e#2899#2920#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoggleTrieTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/org/nkelkar/boggle/helper/BoggleTrieTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="8" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,19 +311,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dictionary.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dictionary.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/dictionary.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8776" column="28" selection-start="103238" selection-end="103238" vertical-scroll-proportion="0.53571427">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractGenericGraph.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org/nkelkar/util/graph/api/abs/AbstractGenericGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="9" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+            <state line="8775" column="10" selection-start="103226" selection-end="103226" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -185,14 +335,17 @@
         <option value="$PROJECT_DIR$/src/main/org/nkelkar/util/graph/Vertex.java" />
         <option value="$PROJECT_DIR$/src/main/org/nkelkar/util/graph/api/ifc/GenericGraph.java" />
         <option value="$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleVertex.java" />
-        <option value="$PROJECT_DIR$/src/main/org/nkelkar/util/tree/trie/TrieNode.java" />
         <option value="$PROJECT_DIR$/src/test/resources/dictionary.txt" />
         <option value="$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleGraph.java" />
         <option value="$PROJECT_DIR$/src/main/org/nkelkar/util/graph/api/abs/AbstractGenericGraph.java" />
-        <option value="$PROJECT_DIR$/src/main/org/nkelkar/util/tree/trie/api/AbstractGenericTrie.java" />
         <option value="$PROJECT_DIR$/src/test/org/nkelkar/boggle/helper/BoggleGraphAdjListTest.java" />
-        <option value="$PROJECT_DIR$/src/test/org/nkelkar/boggle/helper/BoggleGraphConstructorTest.java" />
         <option value="$PROJECT_DIR$/src/test/org/nkelkar/boggle/helper/BoggleVertexMapTest.java" />
+        <option value="$PROJECT_DIR$/src/test/org/nkelkar/boggle/helper/BoggleGraphConstructorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/org/nkelkar/util/tree/trie/api/AbstractGenericTrie.java" />
+        <option value="$PROJECT_DIR$/src/test/org/nkelkar/boggle/helper/BoggleTrieConstructorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/org/nkelkar/util/tree/trie/TrieNode.java" />
+        <option value="$PROJECT_DIR$/src/test/org/nkelkar/boggle/helper/BoggleTrieTest.java" />
+        <option value="$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleVocabTrie.java" />
       </list>
     </option>
   </component>
@@ -567,61 +720,21 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="recentsLimit" value="5" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settings.ide.settings.spelling" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/algorithms/code" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="FullScreen" value="false" />
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.BoggleGraphAdjListTest.testBoggleGraphAdjList">
-    <configuration default="false" name="BoggleVertexMapTest.testBoggleVertex" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="boggle" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.org.nkelkar.boggle.helper" />
-      <option name="MAIN_CLASS_NAME" value="test.org.nkelkar.boggle.helper.BoggleVertexMapTest" />
-      <option name="METHOD_NAME" value="testBoggleVertex" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BoggleVertexMapTest.testBoggleVertexMap" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="boggle" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.org.nkelkar.boggle.helper" />
-      <option name="MAIN_CLASS_NAME" value="test.org.nkelkar.boggle.helper.BoggleVertexMapTest" />
-      <option name="METHOD_NAME" value="testBoggleVertexMap" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.BoggleTrieTest.testBogglePrintAllKeys">
     <configuration default="false" name="BoggleGraphConstructorTest.testBoggleCtor" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="boggle" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -651,6 +764,84 @@
       <option name="PACKAGE_NAME" value="test.org.nkelkar.boggle.helper" />
       <option name="MAIN_CLASS_NAME" value="test.org.nkelkar.boggle.helper.BoggleGraphAdjListTest" />
       <option name="METHOD_NAME" value="testBoggleGraphAdjList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BoggleTrieTest.testBoggleTrieCtor" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="boggle" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.org.nkelkar.boggle.helper" />
+      <option name="MAIN_CLASS_NAME" value="test.org.nkelkar.boggle.helper.BoggleTrieTest" />
+      <option name="METHOD_NAME" value="testBoggleTrieCtor" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BoggleTrieTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="boggle" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.org.nkelkar.boggle.helper" />
+      <option name="MAIN_CLASS_NAME" value="test.org.nkelkar.boggle.helper.BoggleTrieTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BoggleTrieTest.testBogglePrintAllKeys" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="boggle" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.org.nkelkar.boggle.helper" />
+      <option name="MAIN_CLASS_NAME" value="test.org.nkelkar.boggle.helper.BoggleTrieTest" />
+      <option name="METHOD_NAME" value="testBogglePrintAllKeys" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -760,18 +951,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BoggleVertexMapTest.testBoggleVertex" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BoggleVertexMapTest.testBoggleVertexMap" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BoggleGraphConstructorTest.testBoggleCtor" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BoggleGraphAdjListTest.testBoggleGraphAdjList" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BoggleGraphConstructorTest.testBoggleCtor" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BoggleGraphAdjListTest.testBoggleGraphAdjList" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BoggleTrieTest.testBoggleTrieCtor" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BoggleTrieTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BoggleTrieTest.testBogglePrintAllKeys" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BoggleGraphAdjListTest.testBoggleGraphAdjList" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BoggleGraphConstructorTest.testBoggleCtor" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BoggleVertexMapTest.testBoggleVertexMap" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BoggleVertexMapTest.testBoggleVertex" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BoggleTrieTest.testBogglePrintAllKeys" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BoggleTrieTest.testBoggleTrieCtor" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BoggleTrieTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BoggleGraphAdjListTest.testBoggleGraphAdjList" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BoggleGraphConstructorTest.testBoggleCtor" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -780,6 +973,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1529aace-0240-4b69-a537-96e04ee2c7c2" name="Default" comment="" />
@@ -795,9 +1005,9 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47460595" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3905429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924694" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -806,8 +1016,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28604296" sideWeight="0.67075306" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48686516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28604296" sideWeight="0.5156794" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48432055" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -879,23 +1089,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="4" selection-start="1530" selection-end="1530" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#3034#3048#0" expanded="true" />
-            <element signature="e#8013#8027#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/org/nkelkar/boggle/helper/BoggleVertexMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleVertex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -924,27 +1117,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/nkelkar/util/tree/trie/TrieNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/dic-0294.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#3034#3048#0" expanded="true" />
-            <element signature="e#8013#8027#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,23 +1138,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org/nkelkar/util/tree/trie/api/AbstractGenericTrie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/org/nkelkar/boggle/helper/BoggleGraphAdjListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="43" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/org/nkelkar/boggle/helper/BoggleGraphConstructorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="41" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -992,7 +1154,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/dictionary.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8776" column="28" selection-start="103238" selection-end="103238" vertical-scroll-proportion="0.53571427">
+        <state line="8775" column="10" selection-start="103226" selection-end="103226" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/org/nkelkar/boggle/helper/BoggleGraphConstructorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="31" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="17" selection-start="8268" selection-end="8268" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3034#3048#0" expanded="true" />
+            <element signature="e#8013#8027#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/nkelkar/util/tree/trie/TrieNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="17" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/nkelkar/boggle/helper/BoggleVocabTrie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="17" selection-start="2524" selection-end="2524" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#506#527#0" expanded="true" />
+            <element signature="e#2899#2920#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/org/nkelkar/boggle/helper/BoggleTrieTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="8" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org/nkelkar/util/tree/trie/api/AbstractGenericTrie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="68" selection-start="232" selection-end="232" vertical-scroll-proportion="0.27309236">
           <folding />
         </state>
       </provider>

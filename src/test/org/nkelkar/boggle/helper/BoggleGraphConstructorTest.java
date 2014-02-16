@@ -14,7 +14,7 @@ import java.util.HashSet;
 public class BoggleGraphConstructorTest {
 
     @Test
-    public void testBoggleCtor() throws IOException {
+    public void testBoggleGraphCtor() throws IOException {
         /**
          * a b c
          * d e f
