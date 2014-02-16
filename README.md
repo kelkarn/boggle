@@ -10,3 +10,5 @@ As I develop/work more on this project, I hope to come up with faster algorithms
 Note: There are classes in this project that can also be extended to fit your graph algorithms needs. However, I don't assume an edge weight for my graphs in this project, and if you'd need a weighted graph, you'd probably have to implement a custom Edge class or something alike :)
 
 Enjoy!
+
+UPDATE-02/16/2014: Replaced old HashSet dictionary with the more advanced Trie data structure. The solver can solve a 4x4 board much much faster now! (~5 seconds of savings) I'm sure it will be faster in magnitudes for larger board sizes. 
