@@ -29,7 +29,7 @@ public class BoggleGraphAdjListTest {
         vocab.add("bead");
         vocab.add("head");
         */
-        String vocabFilePath = "C:\\Users\\dell\\IdeaProjects\\boggle\\src\\test\\resources\\dictionary.txt";
+        String vocabFilePath = "C:\\Users\\dell\\IdeaProjects\\boggle\\src\\test\\resources\\sowpods.txt";
         BoggleGraph bg = new BoggleGraph(new Character[][] {{'t', 'i', 'a', 'm'},
                                          {'c', 's', 'e', 'r'}, {'n', 'e', 'q', 'a'},
                                          {'f', 'u', 'l', 'l'}}, vocabFilePath);
